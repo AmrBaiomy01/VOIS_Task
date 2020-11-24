@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="36613" started-at="2020-11-24T20:48:47Z" finished-at="2020-11-24T20:49:23Z">
+    <groups>
+    </groups>
+    <test name="MytestCase" duration-ms="36613" started-at="2020-11-24T20:48:47Z" finished-at="2020-11-24T20:49:23Z">
+      <class name="tests.VoisTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.VoisTest@4fe767f3]" name="startDriver" is-config="true" duration-ms="14670" started-at="2020-11-24T20:48:32Z" finished-at="2020-11-24T20:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="Registration()[pri:0, instance:tests.VoisTest@4fe767f3]" name="Registration" duration-ms="11793" started-at="2020-11-24T20:48:47Z" finished-at="2020-11-24T20:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:tests.VoisTest@4fe767f3]" name="Login" duration-ms="7550" started-at="2020-11-24T20:48:59Z" finished-at="2020-11-24T20:49:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CartCheckOut()[pri:2, instance:tests.VoisTest@4fe767f3]" name="CartCheckOut" duration-ms="16820" started-at="2020-11-24T20:49:07Z" finished-at="2020-11-24T20:49:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartCheckOut -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.VoisTest@4fe767f3]" name="stopDriver" is-config="true" duration-ms="1376" started-at="2020-11-24T20:49:23Z" finished-at="2020-11-24T20:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.VoisTest -->
+    </test> <!-- MytestCase -->
+  </suite> <!-- testSuite -->
+</testng-results>
