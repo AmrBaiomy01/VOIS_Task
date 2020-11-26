@@ -3,14 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TEDsearchTest">
+      <class name="tests.RestAssuredApi">
         <methods>
-          <include name="startDriver"/>
-          <include name="fbsearchingoogleplay"/>
-          <include name="stopDriver"/>
-          <include name="TEDSearchinGoogleplay"/>
+          <include name="GetpostswithId"/>
         </methods>
-      </class> <!-- tests.TEDsearchTest -->
+      </class> <!-- tests.RestAssuredApi -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

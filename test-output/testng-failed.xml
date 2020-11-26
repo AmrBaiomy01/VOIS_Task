@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [testSuite]" parallel="tests">
-  <test thread-count="2" verbose="10" name="MytestCase(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.VoisTest">
+      <class name="tests.RestAssuredApi">
         <methods>
-          <include name="startDriver"/>
-          <include name="Login"/>
-          <include name="CartCheckOut"/>
+          <include name="GetpostswithId"/>
         </methods>
-      </class> <!-- tests.VoisTest -->
+      </class> <!-- tests.RestAssuredApi -->
     </classes>
-  </test> <!-- MytestCase(failed) -->
-</suite> <!-- Failed suite [testSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
